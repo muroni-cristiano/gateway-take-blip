@@ -8,7 +8,9 @@ app.use(cors());
 
 app.get("/", async (req, res) => {
   try {
-    let { data } = await axios("https://api.github.com/users/takenet/repos");
+    let { data } = await axios(
+      "https://api.github.com/users/takenet/repos?&type=public&sort=created&direction=asc&per_page=50"
+    );
     let tongue = "C#";
     let result = data.filter((item) => {
       return item.language == tongue;
