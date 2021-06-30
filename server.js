@@ -7,8 +7,9 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 
 app.get("/", async (req, res) => {
-  let response = [];
   try {
+    let response = [];
+    let repository = {};
     let { data } = await axios(
       "https://api.github.com/users/takenet/repos?&type=public&sort=created&direction=asc&per_page=50"
     );
@@ -16,8 +17,16 @@ app.get("/", async (req, res) => {
     let result = data.filter((item) => {
       return item.language == tongue;
     });
-    for (let i = 0; i <= 5; i++) {
-      response.push(result[i]);
+    for (let i = 0; i < 5; i++) {
+      repository = {
+        name: data[i].name,
+        full_name: data[i].full_name,
+        description: data[i].description,
+        language: data[i].language,
+        created_at: data[i].created_at,
+        avatar_url: data[i].owner.avatar_url,
+      };
+      response.push(repository);
     }
     return res.status(200).json(response);
   } catch (error) {
