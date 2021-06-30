@@ -7,6 +7,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 
 app.get("/", async (req, res) => {
+  let response = [];
   try {
     let { data } = await axios(
       "https://api.github.com/users/takenet/repos?&type=public&sort=created&direction=asc&per_page=50"
@@ -15,10 +16,10 @@ app.get("/", async (req, res) => {
     let result = data.filter((item) => {
       return item.language == tongue;
     });
-    result.sort(function (a, b) {
-      return a.created_at - b.created_at;
-    });
-    return res.status(200).json(result);
+    for (let i = 0; i <= 5; i++) {
+      response.push(result[i]);
+    }
+    return res.status(200).json(response);
   } catch (error) {
     res
       .status(404)
