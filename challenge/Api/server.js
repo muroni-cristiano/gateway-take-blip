@@ -19,12 +19,12 @@ app.get("/", async (req, res) => {
     });
     for (let i = 0; i < 5; i++) {
       repository = {
-        name: data[i].name,
-        full_name: data[i].full_name,
-        description: data[i].description,
-        language: data[i].language,
-        created_at: data[i].created_at,
-        avatar_url: data[i].owner.avatar_url,
+        name: result[i].name,
+        full_name: result[i].full_name,
+        description: result[i].description,
+        language: result[i].language,
+        created_at: result[i].created_at,
+        avatar_url: result[i].owner.avatar_url,
       };
       response.push(repository);
     }
