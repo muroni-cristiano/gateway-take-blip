@@ -14,5 +14,5 @@ Em algum momento no fluxo do **ChatBot**, será feita uma requisição **HTTPS**
 - Método GET 👉 https://take-gateway-api.herokuapp.com/
 
 <p align="center">
-<img width="600" height="1000" src="assets/ezgif.com-gif-maker.gif">
+<img width="100" height="400" src="assets/ezgif.com-gif-maker.gif">
 </p>
