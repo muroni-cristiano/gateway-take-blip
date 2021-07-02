@@ -7,4 +7,5 @@
 <b>instalação</b>
 <p>npm install</p>
 <b> Endpoint disponível no HEROKU</b>
-<p>https://take-gateway-api.herokuapp.com/ ![heroku-5-569467](https://user-images.githubusercontent.com/86637866/124203796-e6233400-dab3-11eb-9b6a-190d6c36b548.png)<p>
+<p>https://take-gateway-api.herokuapp.com/ <p>
+![heroku-5-569467](https://user-images.githubusercontent.com/86637866/124203796-e6233400-dab3-11eb-9b6a-190d6c36b548.png)
