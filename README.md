@@ -2,3 +2,9 @@
 <h2>🚀🚀🚀API Gateway Take-Git👨🏿‍🚀</h2>
 <p>Está é uma API que consome a API do GitHub da Take Blip.</p>
 <p>Com o principal intúito de retornar uma resposta ordenada dos 5 últimos repositórios de linguagem "C#" da Take no GitHub.</p>
+<p>Em algum momento no fluxo do ChatBot, será feita uma requisição HTTPS com o método GET na rota dessa API. Após feito isso</p>
+<p>os dados serão apresentados ao usuário através de um carrossel dinâmico.</p>
+##instalação
+<p>npm install</p>
+##Endpoint disponível no HEROKU
+<p>https://take-gateway-api.herokuapp.com/</p>
