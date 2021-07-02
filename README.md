@@ -4,7 +4,7 @@
 <p>Com o principal intúito de retornar uma resposta ordenada dos 5 últimos repositórios de linguagem "C#" da Take no GitHub.</p>
 <p>Em algum momento no fluxo do ChatBot, será feita uma requisição HTTPS com o método GET na rota dessa API. Após feito isso</p>
 <p>os dados serão apresentados ao usuário através de um carrossel dinâmico.</p>
-## instalação
+<b>instalação</b>
 <p>npm install</p>
-## Endpoint disponível no HEROKU
-<p>https://take-gateway-api.herokuapp.com/</p>
+<b> Endpoint disponível no HEROKU</b>
+<p>https://take-gateway-api.herokuapp.com/ ![heroku-5-569467](https://user-images.githubusercontent.com/86637866/124203796-e6233400-dab3-11eb-9b6a-190d6c36b548.png)<p>
