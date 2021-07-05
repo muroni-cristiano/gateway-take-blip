@@ -14,6 +14,10 @@ Em algum momento no fluxo do **ChatBot**, será feita uma requisição **HTTPS**
 
 - npm install
 
+## Instalação
+
+- npm install
+
 ## Endpoint disponível no HEROKU
 
 - Método GET 👉 https://take-gateway-api.herokuapp.com/
