@@ -14,9 +14,9 @@ Em algum momento no fluxo do **ChatBot**, será feita uma requisição **HTTPS**
 
 - npm install
 
-## Instalação
+## Start do app
 
-- npm install
+- npm start
 
 ## Endpoint disponível no HEROKU
 
